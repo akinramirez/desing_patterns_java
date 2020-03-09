@@ -2,7 +2,7 @@ package com.akinramirez.proxy;
 
 public class ProxyClient {
   
-  // Sujeto
+  // Sujeto (Interfaz)
   private UserService userService;
 
   // Cliente, es quien va a llamar el servicio que necesite o sea al sujeto (UserService)
