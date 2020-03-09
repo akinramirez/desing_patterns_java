@@ -10,7 +10,7 @@ public class SIngletonClient {
 
     ThreadSafeSingleton threadSafeSingletonOne = ThreadSafeSingleton.getInstance();
     ThreadSafeSingleton threadSafeSingletonTwo = ThreadSafeSingleton.getInstance();
-    System.out.println(threadSafeSingletonOne == threadSafeSingletonTwo ? 
-            "Solo hay una Instancia threadSafe" : "El singleton threadSafe ha fallado");
+    System.out.println(threadSafeSingletonOne == threadSafeSingletonTwo
+            ? "Solo hay una Instancia threadSafe" : "El singleton threadSafe ha fallado");
   }
 }
